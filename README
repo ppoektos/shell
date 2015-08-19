@@ -1,0 +1,24 @@
+Tetris Game   // The Art Of Shell Programming
+=====================================================================
+
+#####################################################################
+#                                                                   #
+# License: Boost Ver 1.0+                                           #
+# Project: https://github.com/yongye/c                              #
+# Project: https://github.com/yongye/go                             #
+# Project: https://github.com/yongye/cpp                            #
+# Project: https://github.com/yongye/shell                          #
+# Author : YongYe <complex.invoke@gmail.com>                        #
+#                                                                   #
+#####################################################################
+
+runlevel                    :  Complexity of the pieces             ( Default value is 31 )
+previewlevel                :  Number of the pieces to be previewed ( Default value is 6  )
+speedlevel                  :  Speed of the current piece's descent ( Default value is 0  )
+width                       :  Width of the game area               ( Default value is 25 )
+height                      :  Height of the game area              ( Default value is 30 )
+
+Usage                       :  bash Tetris_Game.sh [ <runlevel> [ <previewlevel> [ <speedlevel> [ <width> [height] ] ] ] ]
+Range                       :  [ 0 <= runlevel <= 31 ]   [ previewlevel >= 1 ]   [ speedlevel <= 30 ]   [ width >= 17 ]   [ height >= 10 ]
+Notice                      :  runlevel previewlevel speedlevel width height belong to integer
+Platform                    :  Linux

@@ -1,0 +1,11 @@
+#!/bin/bash
+# save the output of the game as a text file named game_output
+# then run this script
+# with "game_output l" as arguments to get the playing area
+# with "game_output r" as arguments to get the preview area
+
+[[ ! -s ${1} ]] && exit 1
+case $2 in
+     l) sed -r 's/(.*)\|\|(.*)/\1||/g'       ${1} ;;
+     r) sed -r '/Time/d;s/(.*)\|\|(.*)/\2/g' ${1} ;;
+esac

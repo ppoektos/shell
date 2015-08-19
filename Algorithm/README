@@ -1,0 +1,16 @@
+Three ways to design the Algorithms for the function coordinate.transformation()
+which is intended to enlarge, shrink, rotate and matrix transpose the pieces
+
+coordinate.transformation()
+{
+   local i                                             # row=(x-m)*zoomx*cos(a)-(y-n)*zoomy*sin(a)+m
+   for((i=0; i!=${#new_box[@]}; i+=2)); do             # col=(x-m)*zoomx*sin(a)+(y-n)*zoomy*cos(a)+n
+        ((new_coordinate[i]=m+new_box[i+1]-n))         # a=-pi/2 zoomx=+1 zoomy=+1 dx=0 dy=0
+        ((new_coordinate[i+1]=(new_box[i]-m)*${dx}+n)) # a=-pi/2 zoomx=-1 zoomy=+1 dx=0 dy=0 
+   done                                                # a=+pi/2 zoomx=+1 zoomy=-1 dx=0 dy=0
+   [[ ${dx} == 1/2 ]] && run.unique 
+}
+
+Algorithm0.png :  the general solution
+Algorithm1.png :  the explicit solution
+Algorithm2.png :  the numerical solution
