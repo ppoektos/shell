@@ -1,7 +1,7 @@
 #!/bin/bash
 
 num=10
-arr=($(shuf -i 1-$num))
+arr=($(shuf -i 1-100 -n $num))
 len=${#arr[@]}
 echo Unsorted: ${arr[@]}
 
