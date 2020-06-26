@@ -1,12 +1,12 @@
 #!/bin/bash
 
-arr=(4 5 2 0 3)
+arr=(5 4 3 2 1)
 len=${#arr[@]}
 echo Unsorted: ${arr[@]}
 
 for i in $(seq 1 $len); do
     
-    for j in $(seq 0 $((len-i))); do
+    for ((j=0 ; j<$((len-i)) ; j++)); 
     
     if [[ ${arr[j]} -gt ${arr[j+1]} ]]; then
 
