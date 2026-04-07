@@ -1,0 +1,28 @@
+%META:TOPICINFO{author="BaseUserMapping_666" date="1481277959" format="1.1" version="1.252"}%
+---++ Company1 ordering table
+
+%EDITTABLE{format="| text | select, 1, yes, no | select, 1, yes, no |  select, 1, yes, no |  select, 1, yes, no |  select, 1, yes, no |" changerows="off" }%
+| *Name* | *Monday* | *Tuesday* | *Wednesday* | *Thursday* | *Friday* |
+| person1 %EDITCELL{ "label, 0, person1" }% | no | yes | yes | yes | yes |
+| person2 %EDITCELL{ "label, 0, person2" }% | no | no | no | no | no |
+
+
+---++ Company2 ordering table
+
+%EDITTABLE{format="| text | select, 1, yes, no | select, 1, yes, no |  select, 1, yes, no |  select, 1, yes, no |  select, 1, yes, no |" changerows="off" }%
+| *Name* | *Monday* | *Tuesday* | *Wednesday* | *Thursday* | *Friday* |
+| person1 %EDITCELL{ "label, 0, person1" }% | no | yes | yes | yes | yes |
+| person2 %EDITCELL{ "label, 0, person2" }% | no | no | no | no | no |
+
+---++ guests ordering table
+
+%EDITTABLE{format="| text, 20 | select, 1, no, yes | select, 1, no, yes |  select, 1, no, yes |  select, 1, no, yes |  select, 1, no, yes  |" }%
+| *Guest Name* | *Monday* | *Tuesday* | *Wednesday* | *Thursday* | *Friday* |
+| Company1_guest1 | no | yes | yes | yes | no |
+| Company2_guest1 | no | no | no | no | no |
+
+
+<!---
+   * Set ALLOWTOPICCHANGE =
+   * Set READONLYSKINMODE = 1
+--->

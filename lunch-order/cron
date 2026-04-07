@@ -1,0 +1,3 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+15 12 * * 1-5 root sh /root/lunchorder-office1.sh

@@ -1,0 +1,2 @@
+This is an automated mail generated from the lunch order system.
+In case of questions contact <CONTACT_NAME> on <PHONE> or <CONTACT2_NAME> on <PHONE2>.
