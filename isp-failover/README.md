@@ -38,9 +38,3 @@ SSHs into the gateway and calls `wrapper.sh start/stop/check` — useful when
 the internet is down and you need to interact with the daemon from inside
 the LAN without terminal access.
 
-## Sanitization
-
-Real IPs replaced with `<PROVIDER1_GW>`, `<PROVIDER2_GW>`, `<PROVIDER1_SRC_IP>`,
-`<PROVIDER2_SRC_IP>`. Internal host with `<INTERNAL_HOST>`. SSH credentials
-with `<USER>`, `<GATEWAY_IP>`, `<SSH_PORT>`. Emails with `<ADMIN_EMAIL>`,
-`<TEAM_EMAIL>`. Office names with `Office1`. Logic is unchanged.
