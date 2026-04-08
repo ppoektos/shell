@@ -15,6 +15,7 @@ a web reporting UI.
 | `lunchorderbody.txt` | Email body template sent to catering supplier |
 | `LunchOrdering.txt` | TWiki page template — the UI employees interact with |
 | `lunch-report.php` | Web report — weekly order history by company |
+| `count_weeks.sh` | Weekly lunch-order statistics by tenant group over the current year |
 | `cron` | Cron schedule |
 
 ## How it works
