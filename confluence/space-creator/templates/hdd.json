@@ -1,0 +1,1471 @@
+{"type":"page","title":"Hardware Design Documents","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"two_left_sidebar\">
+    <ac:layout-cell>
+      <p>
+        <strong>Quick Links:</strong>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"70095aeb-04f2-427f-9456-bcc3e891f4bb\" ac:name=\"toc\" ac:schema-version=\"1\"/>
+      </p>
+      <p>
+        <br/>
+      </p>
+      <hr/>
+      <p>
+        <ac:structured-macro ac:macro-id=\"c12afe23-d788-4381-9b0e-d2ae51976797\" ac:name=\"children\" ac:schema-version=\"2\"/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <h2>HWDE Implementation Team:</h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>
+              <p>Role</p>
+            </th>
+            <th>
+              <p>Initials</p>
+            </th>
+            <th colspan=\"1\">
+              <p>Responsible</p>
+            </th>
+          </tr>
+          <tr>
+            <th colspan=\"1\">TL</th>
+            <td colspan=\"1\">
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt; </ac:placeholder>
+            </td>
+            <td colspan=\"1\">
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>DM</p>
+            </th>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt;</ac:placeholder>
+              <span style=\"line-height: 1.4285715;\"> </span>
+            </td>
+            <td colspan=\"1\">
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>HWDE</p>
+            </th>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt; </ac:placeholder> </td>
+            <td colspan=\"1\">
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+          </tr>
+          <tr>
+            <th colspan=\"1\">
+              <p>HWDE</p>
+            </th>
+            <td colspan=\"1\">
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt;</ac:placeholder>
+            </td>
+            <td colspan=\"1\">
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <hr/>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <span style=\"color: rgb(0,0,0);\">HDD is available via next link</span>
+        <strong>:</strong>
+      </p>
+      <p>
+        <br/>
+      </p>
+      <ac:structured-macro ac:macro-id=\"22620a4f-5dfe-401f-85ef-a53c1496d0c2\" ac:name=\"info\" ac:schema-version=\"1\">
+        <ac:parameter ac:name=\"title\">Link To HDD</ac:parameter>
+        <ac:rich-text-body>
+          <p>
+            <br/>
+          </p>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <h2>
+        <ac:structured-macro ac:macro-id=\"bf8e873a-28f7-48ba-a0d0-1d178f849304\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"templateName\">3047441</ac:parameter>
+          <ac:parameter ac:name=\"templateId\">3047441</ac:parameter>
+          <ac:parameter ac:name=\"buttonLabel\">Create HDD from template</ac:parameter>
+        </ac:structured-macro>
+      </h2>
+      <p>
+        <br/>
+      </p>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <strong>HDD Checklist:</strong>
+      </p>
+      <p>This section is used to complete checklist.</p>
+      <p>Please take box below and insert in Status field of table depend on real status.</p>
+      <p>
+        <strong>Status</strong>:</p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"1fee17f5-4ed8-4198-a0a6-442401207804\" ac:name=\"status\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"colour\">Green</ac:parameter>
+          <ac:parameter ac:name=\"title\">Completed</ac:parameter>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"efadc56a-d22d-4350-b280-645488b203ab\" ac:name=\"status\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"colour\">Yellow</ac:parameter>
+          <ac:parameter ac:name=\"title\">not full</ac:parameter>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"18a05019-966a-4c98-92a0-ee7612c91339\" ac:name=\"status\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"colour\">Red</ac:parameter>
+          <ac:parameter ac:name=\"title\">not completed</ac:parameter>
+          <ac:parameter ac:name=\"\"/>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"35c94038-c7a6-4ac0-b89b-3a783eb5aa53\" ac:name=\"status\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+          <ac:parameter ac:name=\"title\">na</ac:parameter>
+          <ac:parameter ac:name=\"\"/>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <strong>In scope/Out of scope:</strong>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"86321276-f08c-46c8-a970-980b836d50aa\" ac:name=\"status\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"colour\">Green</ac:parameter>
+          <ac:parameter ac:name=\"title\">+</ac:parameter>
+          <ac:parameter ac:name=\"\"/>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"e75b78f1-d6a1-4498-93a6-c0b2f3f84ac6\" ac:name=\"status\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"colour\">Red</ac:parameter>
+          <ac:parameter ac:name=\"title\"> -</ac:parameter>
+          <ac:parameter ac:name=\"\"/>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <br/>
+      </p>
+      <table class=\"relative-table wrapped\" style=\"width: 31.1703%;\">
+        <colgroup>
+          <col style=\"width: 53.1194%;\"/>
+          <col style=\"width: 46.8806%;\"/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Chapter in HDD</th>
+            <th>In Scope/Out of Scope</th>
+            <th colspan=\"1\">Decision made by/date</th>
+            <th colspan=\"1\">Comment about decision</th>
+            <th colspan=\"1\">
+              <p>Status at<br/>Gate A</p>
+            </th>
+            <th colspan=\"1\">Status at<br/>Gate DV1</th>
+            <th colspan=\"1\">Status at<br/>Gate DV2</th>
+            <th colspan=\"1\">Status at<br/>Gate PV1</th>
+          </tr>
+          <tr>
+            <td>
+              <p>5. Product Overview</p>
+            </td>
+            <td>
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"a0f63abc-3e39-40d0-9040-0ff3063e2c64\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:placeholder ac:type=\"mention\">INI </ac:placeholder>
+                  <time datetime=\"2018-02-13\"/> </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"2420cfce-cd52-4bd6-b8f1-606562ef6114\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">
+              <p>6. Standards Overview</p>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"4a17f9a6-4aab-45d7-8492-f5c07066ec62\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"36b3340f-4cac-427a-ac1e-f97fd8a479f9\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">
+              <p>7. Hardware Architecture</p>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"b9e34906-edfa-439c-8ceb-8b37dfec3036\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"46fa1950-ca0e-4c7a-be05-87f891f5b13c\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">
+              <p>7.1. Architecture Block Diagram</p>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"033cfd4a-fa76-4d91-9e8a-d0ef18524ee5\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"f2bdbec1-1114-4c03-9133-d75c33e24d51\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">
+              <p>7.2.  Interfaces</p>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"66927743-4696-4105-95b6-121dd50ea727\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"d510f437-3a15-4b45-8054-5fb51b3a69aa\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>7.3.  Modes of Operation</td>
+            <td>
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"278ee7d7-c0e0-46cc-b565-8d07352ae78c\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"451b5a7c-b531-4cd6-8a64-9dd7f0e4b9d5\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.4. Safety Concept</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"1df5b0c0-5bf6-4406-8c39-d3b65ac34b1d\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"9ff6cc58-e86c-4a17-a6fc-6b75d7e81cd1\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.5. Configuration Statements</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"1ab74c8b-fbc0-4946-b8c3-d4375b464ca2\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"c4162e72-a203-4a70-9049-bfcfa8c672c0\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.6. Interaction with Software</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"9ddf31b8-44bf-4f2a-9586-2c6878803c2e\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"4b29a529-0d57-448f-92f5-bac48b8653c7\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.7. Hardware Development Constraints</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"1f11c340-c1f8-4bf1-9d30-28a7c139c4b0\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"110cbca9-e756-47b7-9fc1-a0a2f51abe7e\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.7.1.  Common Constraints</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"b700fc68-4372-49e3-87a5-4aecd7019209\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"3958a2a6-44dd-4245-bae9-c5c682cd60e0\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.7.2. Software Dictated Constraints</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"dd6e23c0-e6b7-477b-8fd5-10ec13290076\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"f6fd4c10-de52-4fd2-95d4-da0e284691e9\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.7.3.  Mechanical Constraints</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"835f1e90-955d-444f-9cc2-00e3baaf1809\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"2488185d-d440-45fd-8ce9-3910590ea93d\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.7.4. Testability Constraints</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"cf8ad79f-a813-4922-861b-258dbbcb60b8\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"d7b95ce6-4a6a-42a1-8b71-4af140a0afb5\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.7.5.  Design for Manufacturing Constraints</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"ccfa5c26-1d2c-4346-8942-8b65e8470fcf\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"ca7b71bd-a0de-4d79-a192-71d4b0ce1458\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.7.6. Timing Constraints</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"e28ac1de-6688-4374-ad6c-1db749a1491d\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"05f22d12-1371-4eb1-9ea9-6184462e3d43\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">8. BOM Cost Optimization Plan</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"53de62ce-3c8d-4ca5-a8b0-230a7d870650\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"abcf275d-8799-460b-9df0-febcedbb16d3\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">9. EMC Design</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"4e75bf9b-ac93-4985-947b-bd310a366f92\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"ecbd8d7e-b10a-4aee-ad44-3abe896d9901\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">10. Detailed Hardware Design</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"017446f1-d8e1-4078-bcd3-42289b9b9204\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"c377fa84-58a6-4372-af17-bdb733e0954a\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">
+              <p class=\"western\">
+                <span class=\"nh-number\">10.1.</span>
+                <ac:placeholder>&lt;Put circuit name here&gt;</ac:placeholder>
+              </p>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"675a74ce-e04c-4c72-82a6-9840e31026b2\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"593be0be-e4b0-4d6c-a9eb-3f64a0d38e2e\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">10.1.1. Software Development Inputs</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"a3aed040-9ab3-4cf4-b75f-ad0f746034a0\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"d9eefd04-d22f-4f16-9827-9a4c31585881\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">10.2. Power Consumption</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"e60979ac-410a-4143-bd50-e972a69761fa\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"56cf2323-202d-46b3-922c-2e890fdfd1cf\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">10.3. Thermal Design</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"f1e0c7f1-1318-44ff-9f4b-986bad20ce35\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"e27386ad-48a4-4baa-af57-f5fccf54af87\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">10.4. PCB Layout</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"0fca0eb3-545a-4d4a-9da8-1b232a2db87c\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"351fce3d-31e3-4530-ba64-f13bb7236da8\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">10.4.1. Traces Layout Concept</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"425f3fa6-87a1-4059-97d8-8734bb829520\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"4ebf9000-2ce0-43df-98cf-7ee31a0dafe9\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">10.5. Custom Components</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"485d313d-83ae-4264-82a4-61cd90bb8be1\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"d9fb32cd-0424-498e-bb1d-c83f4502ac23\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">11. MTBF Calculation Consideration</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"6a47a794-1007-47be-8f60-3da0f8ae06a1\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"83ad53af-4cc3-422e-b22e-13d128314a8a\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">12. Potential Issues &amp; Mitigation Plan</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"69b9d020-823e-4cd9-a9f5-78eb5d0489e9\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"29f4dbab-cd6c-4740-a65f-7a62b0676035\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\"/>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h2>
+        <span style=\"color: rgb(0,0,0);\">HW Deliverables</span>
+        <span style=\"color: rgb(0,0,0);\">:</span>
+      </h2>
+      <p>The table contains a history of HW Deliverables for <ac:placeholder>&lt;Project Name&gt; </ac:placeholder> project.</p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <thead>
+          <tr>
+            <th>
+              <div class=\"tablesorter-header-inner\">Name</div>
+            </th>
+            <th>
+              <div class=\"tablesorter-header-inner\">Revision</div>
+            </th>
+            <th>
+              <div class=\"tablesorter-header-inner\">Date</div>
+            </th>
+            <th>
+              <div class=\"tablesorter-header-inner\">Document</div>
+            </th>
+            <th colspan=\"1\">
+              <div class=\"tablesorter-header-inner\">Description</div>
+            </th>
+            <th colspan=\"1\">
+              <div class=\"tablesorter-header-inner\">Responsible</div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ac:placeholder>&lt;Name&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Number&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;YYYYMMDD&gt; </ac:placeholder>
+            </td>
+            <td>
+              <a href=\"http://<CONFLUENCE_HOST>/\">Change this Link</a>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Description text&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;User initials&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h2>HDD baseline versions by gates</h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Version</th>
+            <th>Link to HDD as pdf</th>
+            <th>Uploaded by</th>
+            <th>Uploaded when</th>
+          </tr>
+          <tr>
+            <td>
+              <ac:placeholder>E.g. Baseline version Gate A </ac:placeholder>
+            </td>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

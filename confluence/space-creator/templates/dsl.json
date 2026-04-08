@@ -1,0 +1,186 @@
+{"type":"page","title":"Data Storage and Links","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>Page provides fast links foremost valuable project's links:<strong> </strong>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <ac:structured-macro ac:macro-id=\"feea7612-3a68-4528-b5db-af24735b9209\" ac:name=\"toc\" ac:schema-version=\"1\"/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h2>
+        <strong>IT Structure</strong>
+      </h2>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p class=\"auto-cursor-target\">
+        <br/>
+      </p>
+      <table class=\"wrapped\" style=\"line-height: 1.4285715;\">
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <th>Link</th>
+            <th>Notes</th>
+          </tr>
+          <tr>
+            <td>
+              <ac:placeholder>&lt;Name&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Link&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class=\"auto-cursor-target\">
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <hr/>
+      <p> </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h2>
+        <strong>Software Deliverables List</strong>
+      </h2>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p class=\"auto-cursor-target\">
+        <br/>
+      </p>
+      <table class=\"wrapped\" style=\"line-height: 1.4285715;\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <th>Rev</th>
+            <th>Date</th>
+            <th>Document</th>
+            <th>Description</th>
+            <th>Responsible</th>
+          </tr>
+          <tr>
+            <td>
+              <ac:placeholder>&lt;Name&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Number&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;YYYYMMDD&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Document Link&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt; </ac:placeholder>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\"> </td>
+            <td colspan=\"1\"> </td>
+            <td colspan=\"1\"> </td>
+            <td colspan=\"1\"> </td>
+            <td colspan=\"1\"> </td>
+            <td colspan=\"1\"> </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class=\"auto-cursor-target\">
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <hr/>
+      <p> </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h2>
+        <strong>Hardware Deliverables List</strong>
+      </h2>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p class=\"auto-cursor-target\">
+        <br/>
+      </p>
+      <table class=\"wrapped\" style=\"line-height: 1.4285715;\">
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <th>Rev</th>
+            <th>Date</th>
+            <th>Document</th>
+            <th>Description</th>
+            <th>Responsible</th>
+          </tr>
+          <tr>
+            <td>
+              <ac:placeholder>&lt;Name&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Number&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;YYYYMMDD&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Document Link&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class=\"auto-cursor-target\">
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <hr/>
+      <p> </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

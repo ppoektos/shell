@@ -1,0 +1,405 @@
+{"type":"page","title":"Gate DVx checklist","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>Gate DVx is a major step where actual product development take place.</p>
+      <p>Gate DVx might cover several design verification stages which are numbered as DV1, DV2, DV3 and etc.</p>
+      <p>Thus Gate DVx also numerical and could be called Gate DVx.1, DVx.2, DVx.3 and etc.</p>
+      <p>In case when Gate DVx number in a sequence is 1, then steps will be numbered G.DVx1.x, in case when it is 2 - G.DVx2.x.</p>
+      <p>Gate DVx always ends with physical prototype of electronics made (if project consist of hardware to be developed).</p>
+      <p>See full descriptions of the points here: <ac:link>
+          <ri:page ri:content-title=\"Gate DVx Description\" ri:space-key=\"PMO\"/>
+        </ac:link>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th style=\"text-align: center;\">№</th>
+            <th style=\"text-align: center;\">Headline</th>
+            <th style=\"text-align: center;\">
+              <p>Responsible</p>
+              <p>person</p>
+            </th>
+            <th colspan=\"1\" style=\"text-align: center;\">
+              <p style=\"text-align: center;\">Notes / Links /</p>
+              <p style=\"text-align: center;\">Deviations</p>
+              <p style=\"text-align: center;\">Date of completion</p>
+            </th>
+            <th colspan=\"1\" style=\"text-align: center;\">
+              <p>To Do In Order</p>
+              <p>To Complete</p>
+              <p>The Gate</p>
+            </th>
+            <th colspan=\"1\" style=\"text-align: center;\">
+              <p style=\"text-align: center;\">Approval by PMO</p>
+              <p style=\"text-align: center;\">(note who and</p>
+              <p style=\"text-align: center;\">when is approved)</p>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <p>G.DVx.1</p>
+            </td>
+            <td>
+              <p>PRS Update</p>
+            </td>
+            <td style=\"text-align: center;\">
+              <p>PM</p>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G.DVx.2</p>
+            </td>
+            <td>
+              <p>PRS Shared With Customer</p>
+            </td>
+            <td style=\"text-align: center;\">
+              <p>PM</p>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G.DVx.3</p>
+            </td>
+            <td>
+              <p>ATS Update</p>
+            </td>
+            <td style=\"text-align: center;\">
+              <p>PM</p>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G.DVx.4</p>
+            </td>
+            <td>
+              <p>ATS Shared With Customer</p>
+            </td>
+            <td style=\"text-align: center;\">
+              <p>PM</p>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G.DVx.5</p>
+            </td>
+            <td>
+              <p>HDD Update &amp; Brush Up</p>
+            </td>
+            <td style=\"text-align: center;\">
+              <p>TL</p>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G.DVx.6</p>
+            </td>
+            <td>
+              <p>HDD Review</p>
+              <p>By HW Department</p>
+            </td>
+            <td style=\"text-align: center;\">
+              <p>TL</p>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G.DVx.7</p>
+            </td>
+            <td>
+              <p>HDD Sent Out To Customer</p>
+            </td>
+            <td style=\"text-align: center;\">
+              <p>PM</p>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G.DVx.8</p>
+            </td>
+            <td>
+              <p>SDD Update &amp; Brush Up</p>
+            </td>
+            <td style=\"text-align: center;\">
+              <p>TL</p>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G.DVx.9</p>
+            </td>
+            <td>
+              <p>SDD Review</p>
+              <p>By SW Department</p>
+            </td>
+            <td style=\"text-align: center;\">
+              <p>TL</p>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G.DVx.10</p>
+            </td>
+            <td>
+              <p>SDD Sent Out To Customer</p>
+            </td>
+            <td style=\"text-align: center;\">
+              <p>PM</p>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>G.DVx.11</td>
+            <td>
+              <p>HW Design Review</p>
+              <p>After Bring Up</p>
+            </td>
+            <td style=\"text-align: center;\">TL</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>G.DVx.12</td>
+            <td>
+              <p>HW Design BOM Cost</p>
+              <p>Target Is Still Feasible</p>
+            </td>
+            <td style=\"text-align: center;\">TL</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>G.DVx.13</td>
+            <td>
+              <p>TRS Interface: Results</p>
+              <p>of tests and reviews</p>
+            </td>
+            <td style=\"text-align: center;\">TL</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>G.DVx.14</td>
+            <td>Project Cost Overview</td>
+            <td style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>G.DVx.15</td>
+            <td>Project Schedule Overview</td>
+            <td style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>G.DVx.16</td>
+            <td>SW Design Review</td>
+            <td style=\"text-align: center;\">TL</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">G.DVx.17</td>
+            <td colspan=\"1\">
+              <p>Risk Registry</p>
+              <p>Review &amp; Actualization</p>
+            </td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G.DVx.18</p>
+            </td>
+            <td>
+              <p>Milestone status report</p>
+              <p>sent to customer</p>
+            </td>
+            <td style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>G.DVx.19</td>
+            <td>
+              <p>Gate B Closure Meeting</p>
+              <p>Performed And</p>
+              <p>Gate Is Passed</p>
+            </td>
+            <td style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

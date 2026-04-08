@@ -1,0 +1,402 @@
+{"type":"page","title":"Prototype","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<p class=\"auto-cursor-target\">
+  <br/>
+</p>
+<table class=\"wrapped\">
+  <colgroup>
+    <col/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>General procedure <a href=\"http://<CONFLUENCE_HOST>:81/pmo/20171009-OKO-Service_Level_Agreement.pdf\">description</a>.</th>
+    </tr>
+  </tbody>
+</table>
+<h2>
+  <strong>1. Timescale of prototype production</strong>
+</h2>
+<ac:structured-macro ac:macro-id=\"e227ddca-da70-48a7-af1d-58cfdca90b49\" ac:name=\"info\" ac:schema-version=\"1\">
+  <ac:rich-text-body>
+    <p>The input date that is used for a CP must be the date when a final condition for the CP is implemented</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+<p>
+  <strong class=\"auto-cursor-target\">
+    <br class=\"auto-cursor-target\"/>
+  </strong>
+</p>
+<table class=\"relative-table wrapped\" style=\"width: 49.1472%;\">
+  <colgroup>
+    <col style=\"width: 13.6422%;\"/>
+    <col style=\"width: 14.7962%;\"/>
+    <col style=\"width: 71.5616%;\"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>
+        <p align=\"CENTER\">
+          <strong>Checkpoint</strong>
+        </p>
+      </th>
+      <th>
+        <p align=\"CENTER\">
+          <strong>Date</strong>
+        </p>
+      </th>
+      <th>
+        <p align=\"CENTER\">
+          <strong>Comments</strong>
+        </p>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <p align=\"CENTER\">
+          <strong>CP1</strong>
+        </p>
+      </td>
+      <td style=\"text-align: center;\">YYYYMMDD</td>
+      <td style=\"text-align: center;\">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p align=\"CENTER\">
+          <strong>CP2</strong>
+        </p>
+      </td>
+      <td style=\"text-align: center;\">
+        <br/>
+      </td>
+      <td style=\"text-align: center;\">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p align=\"CENTER\">
+          <strong>CP3</strong>
+        </p>
+      </td>
+      <td style=\"text-align: center;\">
+        <br/>
+      </td>
+      <td style=\"text-align: center;\">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p align=\"CENTER\">
+          <strong>CP4</strong>
+        </p>
+      </td>
+      <td style=\"text-align: center;\">
+        <br/>
+      </td>
+      <td style=\"text-align: center;\">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p align=\"CENTER\">
+          <strong>CP5</strong>
+        </p>
+      </td>
+      <td style=\"text-align: center;\">
+        <br/>
+      </td>
+      <td style=\"text-align: center;\">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p align=\"CENTER\">
+          <strong>CP6</strong>
+        </p>
+      </td>
+      <td style=\"text-align: center;\">
+        <br/>
+      </td>
+      <td style=\"text-align: center;\">
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2>
+  <strong>2. Information for the initial request, BOM or other related files</strong>
+</h2>
+<ac:structured-macro ac:macro-id=\"460aae1e-e668-40f6-9de9-3908de2262ef\" ac:name=\"info\" ac:schema-version=\"1\">
+  <ac:rich-text-body>
+    <p>The uploaded file must have a name starting from v 1.0.</p>
+    <p>If the new file is uploaded to the table, there should be created new row above the previous one. The version of the file becomes +0.1. Old fine should not be deleted.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+<p>
+  <strong>
+    <br class=\"auto-cursor-target\"/>
+  </strong>
+</p>
+<table class=\"relative-table wrapped\" style=\"width: 48.9577%;\">
+  <colgroup>
+    <col style=\"width: 62.8316%;\"/>
+    <col style=\"width: 37.1684%;\"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Files uploading field</th>
+      <th>Person to notify (@noname)</th>
+    </tr>
+    <tr>
+      <td>
+        <br/>
+      </td>
+      <td>
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2>
+  <strong>3. Preliminary quotation for prototype</strong>
+</h2>
+<ac:structured-macro ac:macro-id=\"ee337ccb-3496-46d1-817f-db346ccb36fa\" ac:name=\"info\" ac:schema-version=\"1\">
+  <ac:rich-text-body>If new initial data is proceeded there should be added the same table with mentioned version of the proceeded initial file.</ac:rich-text-body>
+</ac:structured-macro>
+<p>
+  <strong>
+    <br/>
+  </strong>
+</p>
+<table class=\"relative-table wrapped\" style=\"width: 49.0208%;\">
+  <colgroup>
+    <col style=\"width: 62.8839%;\"/>
+    <col style=\"width: 37.1161%;\"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th colspan=\"2\">Person to notify (@noname)</th>
+    </tr>
+    <tr>
+      <td>
+        <p>Preliminary scheme and BOM v.1.0 received</p>
+      </td>
+      <td style=\"text-align: center;\">date</td>
+    </tr>
+    <tr>
+      <td>
+        <p>General production time required for the prototype</p>
+      </td>
+      <td style=\"text-align: center;\">
+        <p align=\"CENTER\">amount of days</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Cost of one prototype (<span>
+            <span>PCB-production, Mounting separately</span>
+          </span>)</p>
+      </td>
+      <td style=\"text-align: center;\">
+        <p align=\"CENTER\">XXX Euro</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Delivery</p>
+      </td>
+      <td style=\"text-align: center;\">
+        <p align=\"CENTER\">Type, time and cost</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=\"2\">
+        <p>Suggested replacements (if any):</p>
+        <p>[name of element] – [replacement] – [reason] - [benefit]</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2>
+  <strong>4. Information for the order, BOM or other related files</strong>
+</h2>
+<ac:structured-macro ac:macro-id=\"15c812d3-a3ec-4043-a049-4bb8586524c7\" ac:name=\"info\" ac:schema-version=\"1\">
+  <ac:rich-text-body>
+    <p>The uploaded file must have a name starting from v 1.0.</p>
+    <p>If the new file is uploaded to the table, there should be created new row above the previous one. The version of the file becomes +0.1</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+<p>
+  <strong>
+    <br/>
+  </strong>
+</p>
+<table class=\"relative-table wrapped\" style=\"width: 48.8313%;\">
+  <colgroup>
+    <col style=\"width: 62.6058%;\"/>
+    <col style=\"width: 37.3942%;\"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Files uploading field</th>
+      <th>Person to notify (@noname)</th>
+    </tr>
+    <tr>
+      <td>
+        <br/>
+      </td>
+      <td>
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2>
+  <strong>5. Final </strong>
+  <span>
+    <strong>quotation</strong>
+  </span>
+  <strong> for prototype</strong>
+</h2>
+<ac:structured-macro ac:macro-id=\"cdd9f364-f07d-4579-9592-b34450a7b866\" ac:name=\"info\" ac:schema-version=\"1\">
+  <ac:rich-text-body>If new data is proceeded there should be added the same table with mentioned version of the proceeded file.</ac:rich-text-body>
+</ac:structured-macro>
+<p>
+  <strong>
+    <br/>
+  </strong>
+</p>
+<table class=\"relative-table wrapped\" style=\"width: 48.7682%;\">
+  <colgroup>
+    <col style=\"width: 63.2101%;\"/>
+    <col style=\"width: 36.7899%;\"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th colspan=\"2\">Person to notify (@noname)</th>
+    </tr>
+    <tr>
+      <td>
+        <p>Receiving final layout</p>
+      </td>
+      <td style=\"text-align: center;\">date</td>
+    </tr>
+    <tr>
+      <td>
+        <p>General production time required for the prototype</p>
+      </td>
+      <td style=\"text-align: center;\">amount of days</td>
+    </tr>
+    <tr>
+      <td>
+        <p>Cost of one prototype <span>(</span>
+          <span>
+            <span>
+              <span>PCB-production, Mounting separately</span>
+            </span>
+          </span>
+          <span>)</span>
+        </p>
+      </td>
+      <td style=\"text-align: center;\">XXX Euro</td>
+    </tr>
+    <tr>
+      <td>
+        <p>Delivery</p>
+      </td>
+      <td style=\"text-align: center;\">Type, time and cost</td>
+    </tr>
+    <tr>
+      <td colspan=\"2\">
+        <p>List of the missing elements:</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2>
+  <strong>6.Production confirmation<br/>
+  </strong>
+</h2>
+<table class=\"relative-table wrapped\" style=\"width: 48.6418%;\">
+  <colgroup>
+    <col style=\"width: 63.1123%;\"/>
+    <col style=\"width: 36.8877%;\"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Responsible person (@noname)</th>
+      <th>Person to notify (@noname)</th>
+    </tr>
+    <tr>
+      <td colspan=\"1\">
+        <br/>
+      </td>
+      <td colspan=\"1\">
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2>
+  <strong> 7. Supporting documentation for prototype</strong>
+</h2>
+<table class=\"relative-table wrapped\" style=\"width: 48.8313%;\">
+  <colgroup>
+    <col style=\"width: 62.6079%;\"/>
+    <col style=\"width: 37.3921%;\"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>
+        <p align=\"CENTER\">
+          <strong>Type of documentation</strong>
+        </p>
+      </th>
+      <th>
+        <p align=\"CENTER\">
+          <strong>Confirmation</strong>
+        </p>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <p>Smoke test</p>
+      </td>
+      <td>
+        <p align=\"CENTER\">Yes/No</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Electrical testing</p>
+      </td>
+      <td>
+        <p align=\"CENTER\">Yes/No</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Visual check</p>
+      </td>
+      <td>
+        <p align=\"CENTER\">Yes/No</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Attached list of all components of prototype with marking of the missing elements</p>
+      </td>
+      <td>
+        <p align=\"CENTER\">Yes/no</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>Checked and approved by: (@noname)<br/>
+  <em>(name of the responsible person from Service Provider)</em>
+</p>",
+"representation":"storage"}}}

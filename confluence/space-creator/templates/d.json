@@ -1,0 +1,21 @@
+{"type":"page","title":"Design","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>The section contains documents related to the SW/HW Design, Quality Control approach and Verification Results.</p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <strong>Quick Links:</strong>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"df615d63-2b57-443f-8233-326ca7e0b7ce\" ac:name=\"children\" ac:schema-version=\"2\">
+          <ac:parameter ac:name=\"depth\">4</ac:parameter>
+        </ac:structured-macro>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

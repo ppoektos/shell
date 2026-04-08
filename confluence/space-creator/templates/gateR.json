@@ -1,0 +1,368 @@
+{"type":"page","title":"Gate R checklist","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>Requirements stage. Gate R is a conclusion of the requirements management. The main idea of this gate is to make sure that the product requirements are compiled in PRS and verified in ATS, in a way that is understandable to the customer. Additionally, it's necessary is to have customer's approval of the PRS and ATS at this stage.</p>
+      <p>Points from the checklist can be skipped/waived if it is judged to fit the project better. However, the decision about waiving points of the checklist shall be made and agreed with the CTO <u>
+          <strong>and</strong>
+        </u> PD in time, before the gate meeting is conducted. The argument for waiving a point shall be stated inside the checklist along with the date of agreement and initials of the responsible.</p>
+      <br/>
+      <p>See a further description of each point here: <span style=\"color: rgb(255,0,0);\">
+          <a href=\"https://<CONFLUENCE_HOST>/display/PMO/Gate+R+Description\">Gate R Description</a>
+        </span>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p class=\"auto-cursor-target\">
+        <br/>
+      </p>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col style=\"width: 61.0px;\"/>
+          <col style=\"width: 317.0px;\"/>
+          <col style=\"width: 100.0px;\"/>
+          <col style=\"width: 217.0px;\"/>
+          <col style=\"width: 210.0px;\"/>
+          <col style=\"width: 129.0px;\"/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th style=\"text-align: center;\">№</th>
+            <th style=\"text-align: center;\">Headline</th>
+            <th colspan=\"1\" style=\"text-align: center;\">
+              <p>Responsible</p>
+              <p>person</p>
+            </th>
+            <th colspan=\"1\" style=\"text-align: center;\">
+              <p style=\"text-align: center;\">Notes / Links /</p>
+              <p style=\"text-align: center;\">comments prior to the gate meeting</p>
+              <p style=\"text-align: center;\">Incl. date&amp;initials</p>
+            </th>
+            <th colspan=\"1\" style=\"text-align: center;\">
+              <p>Comments during the gate meeting</p>
+            </th>
+            <th colspan=\"1\" style=\"text-align: center;\">
+              <p style=\"text-align: center;\">Approval by PMO</p>
+              <p style=\"text-align: center;\">
+                <span>Incl. date&amp;initials</span>
+              </p>
+              <p style=\"text-align: center;\">
+                <br/>
+              </p>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <span>G.R.1</span>
+            </td>
+            <td>
+              <span>PRS completed </span>
+              <span>and baseline version stored</span>
+            </td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>G.R.2</span>
+            </td>
+            <td>
+              <span>PRS approved by customer </span>
+            </td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">
+              <span>G.R.</span>3</td>
+            <td colspan=\"1\">Test Strategy described (can be a part of ATS)</td>
+            <td colspan=\"1\" style=\"text-align: center;\">TL</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">
+              <span>G.R.4</span>
+            </td>
+            <td colspan=\"1\">Test Strategy agreed with customer</td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>G.R.5</span>
+            </td>
+            <td>ATS completed</td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>G.R.6</span>
+            </td>
+            <td>
+              <span>
+                <span>ATS approved by customer</span>
+                <br/>
+              </span>
+            </td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">G.R.7</td>
+            <td colspan=\"1\">Requirements Compliance Matrix is compiled </td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">G.R.8</td>
+            <td colspan=\"1\">Proof of concept work is done or/and defined</td>
+            <td colspan=\"1\" style=\"text-align: center;\">TL</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">G.R.9</td>
+            <td colspan=\"1\">Typetesting &amp; approval standards are listed in PRS</td>
+            <td colspan=\"1\" style=\"text-align: center;\">TL</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">G.R.10</td>
+            <td colspan=\"1\">Application standards are listed in PRS</td>
+            <td colspan=\"1\" style=\"text-align: center;\">TL</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">G.R.11</td>
+            <td colspan=\"1\">Consultancy on typetesting &amp; approval is conducted with TRS</td>
+            <td colspan=\"1\" style=\"text-align: center;\">TL</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">G.R.12</td>
+            <td colspan=\"1\">Define Testing Strategy for mass production (PTS or Manual Testing)</td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>G.R.13</span>
+            </td>
+            <td>Project Budget Baseline Compilation</td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <span>G.R.14</span>
+              </p>
+            </td>
+            <td>Project Schedule Baseline Compilation</td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>G.R.15</span>
+            </td>
+            <td>
+              <p>Risk Analysis Conducted</p>
+            </td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>G.R.16</span>
+            </td>
+            <td>Status Report Format Customer Review</td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"6\" style=\"text-align: center;\">
+              <em>After the gate meeting is conducted, the steps below completed in order to pass the gate.</em>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">G.A.17</td>
+            <td colspan=\"1\">All steps above are cleared</td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">G.A.18</td>
+            <td colspan=\"1\">Customer informed about gate passing</td>
+            <td colspan=\"1\" style=\"text-align: center;\">PM</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">G.A.19</td>
+            <td colspan=\"1\">PMO informed about gate passing</td>
+            <td colspan=\"1\" style=\"text-align: center;\">PD Officer</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class=\"auto-cursor-target\">
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

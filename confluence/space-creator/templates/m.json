@@ -1,0 +1,22 @@
+{"type":"page","title":"Management","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>The Section contains Project Management documents related to Contact, Schedule, Cost and Expencises</p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"two_equal\">
+    <ac:layout-cell>
+      <h2>Table of Contents:</h2>
+      <p>
+        <ac:structured-macro ac:macro-id=\"41682660-054c-4dc7-8c82-6e2f3e3e1d88\" ac:name=\"children\" ac:schema-version=\"2\">
+          <ac:parameter ac:name=\"depth\">3</ac:parameter>
+        </ac:structured-macro>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p> </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

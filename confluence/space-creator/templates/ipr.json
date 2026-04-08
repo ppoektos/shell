@@ -1,0 +1,30 @@
+{"type":"page","title":"Internal Project Reporting","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <ac:structured-macro ac:macro-id=\"a8c9fae9-4cb9-4a37-953e-5fc41b146ea5\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"templateName\">27131913</ac:parameter>
+          <ac:parameter ac:name=\"templateId\">27131913</ac:parameter>
+          <ac:parameter ac:name=\"title\">Report</ac:parameter>
+          <ac:parameter ac:name=\"buttonLabel\">Create internal project report</ac:parameter>
+        </ac:structured-macro>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <ac:structured-macro ac:macro-id=\"73a37820-9faa-4c35-a365-a3264bbd6471\" ac:name=\"excerpt-include\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"nopanel\">true</ac:parameter>
+          <ac:parameter ac:name=\"\">
+            <ac:link>
+              <ri:page ri:content-title=\"How to fill out the internal project report\" ri:space-key=\"PMO\"/>
+            </ac:link>
+          </ac:parameter>
+        </ac:structured-macro>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

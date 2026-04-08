@@ -1,0 +1,487 @@
+{"type":"page","title":"2018_week_35","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<p>Find a description of the individual points here: <ac:link>
+    <ri:page ri:content-title=\"How to fill out the internal project report\" ri:space-key=\"PMO\"/>
+  </ac:link>
+</p>
+<ac:structured-macro ac:macro-id=\"23a0c3c9-0f46-4ce5-8032-419f62e228c0\" ac:name=\"excerpt\" ac:schema-version=\"1\">
+  <ac:parameter ac:name=\"atlassian-macro-output-type\">INLINE</ac:parameter>
+  <ac:rich-text-body>
+    <table class=\"fixed-table wrapped\">
+      <colgroup>
+        <col style=\"width: 51.0px;\"/>
+        <col style=\"width: 121.0px;\"/>
+        <col style=\"width: 132.0px;\"/>
+        <col style=\"width: 124.0px;\"/>
+        <col style=\"width: 163.0px;\"/>
+        <col style=\"width: 148.0px;\"/>
+        <col style=\"width: 177.0px;\"/>
+        <col style=\"width: 121.0px;\"/>
+        <col style=\"width: 156.0px;\"/>
+      </colgroup>
+      <tbody>
+        <tr>
+          <td class=\"highlight-blue\" data-highlight-colour=\"blue\" rowspan=\"2\">
+            <strong>PM</strong>
+          </td>
+          <td class=\"highlight-blue\" colspan=\"1\" data-highlight-colour=\"blue\" style=\"text-align: center;\">
+            <strong>Project stage</strong>
+          </td>
+          <td class=\"highlight-blue\" colspan=\"1\" data-highlight-colour=\"blue\" style=\"text-align: center;\">
+            <strong>Next gate meeting</strong>
+          </td>
+          <td class=\"highlight-blue\" colspan=\"1\" data-highlight-colour=\"blue\" style=\"text-align: center;\">
+            <strong>Next external milestone</strong>
+          </td>
+          <td class=\"highlight-blue\" colspan=\"1\" data-highlight-colour=\"blue\" style=\"text-align: center;\">
+            <strong>Schedule</strong>
+          </td>
+          <td class=\"highlight-blue\" colspan=\"1\" data-highlight-colour=\"blue\">
+            <strong>Estimated vs. spent mh</strong>
+          </td>
+          <td class=\"highlight-blue\" colspan=\"1\" data-highlight-colour=\"blue\" style=\"text-align: center;\">
+            <strong>Expected cost at completion</strong>
+          </td>
+          <td class=\"highlight-blue\" colspan=\"1\" data-highlight-colour=\"blue\" style=\"text-align: center;\">
+            <strong>Next invoice will be</strong>
+          </td>
+          <td class=\"highlight-blue\" colspan=\"1\" data-highlight-colour=\"blue\" style=\"text-align: center;\">
+            <strong>Date of last, sent project report</strong>
+          </td>
+        </tr>
+        <tr>
+          <td class=\"highlight-blue\" data-highlight-colour=\"blue\">
+            <ac:task-list>
+<ac:task>
+<ac:task-id>1</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>Design</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>2</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>DV1</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>3</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>DV2</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>4</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>DV3</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>5</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>DV4</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>6</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>PV1</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>7</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>PV2</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>8</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>PV3</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>9</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>Handover</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>10</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>Evaluation</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>11</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>Closure</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>12</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>Closed</ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>13</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>On hold</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>14</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>Open Support</ac:task-body>
+</ac:task>
+</ac:task-list>
+          </td>
+          <td class=\"highlight-blue\" data-highlight-colour=\"blue\">
+            <div class=\"content-wrapper\">
+              <p>
+                <time datetime=\"2017-01-01\"/>
+                <span> </span>
+              </p>
+              <p>Gate:</p>
+              <p>
+                <ac:placeholder>Write name of gate here </ac:placeholder>
+              </p>
+              <p>Initial date:</p>
+              <p>
+                <span> </span>
+                <time datetime=\"2017-01-01\"/>
+                <span> </span>
+                <span> </span>
+              </p>
+            </div>
+          </td>
+          <td class=\"highlight-blue\" data-highlight-colour=\"blue\">
+            <div class=\"content-wrapper\">
+              <p>
+                <time datetime=\"2017-01-01\"/>
+              </p>
+              <p>Milestone:</p>
+              <p>
+                <ac:placeholder>Write name of milestone here</ac:placeholder>
+              </p>
+              <p>Initial date:</p>
+              <p>
+                <time datetime=\"2017-01-01\"/>
+                <span> </span>
+              </p>
+            </div>
+          </td>
+          <td class=\"highlight-blue\" data-highlight-colour=\"blue\">
+            <ac:task-list>
+<ac:task>
+<ac:task-id>15</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>On time/ahead</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>16</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>A recoverable delay</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>17</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>A non-recoverable delay</p>
+                </ac:task-body>
+</ac:task>
+</ac:task-list>
+            <p>If delayed: <ac:placeholder>How many weeks? </ac:placeholder>
+            </p>
+          </td>
+          <td class=\"highlight-blue\" colspan=\"1\" data-highlight-colour=\"blue\">
+            <p>Estimated:</p>
+            <p>
+              <ac:placeholder> Write the number of estimated man hours </ac:placeholder>
+            </p>
+            <p>Spent:</p>
+            <p>
+              <ac:placeholder>Write the number of spent man hours </ac:placeholder>
+            </p>
+            <p>
+              <br/>
+            </p>
+          </td>
+          <td class=\"highlight-blue\" data-highlight-colour=\"blue\">
+            <div class=\"content-wrapper\">
+              <ac:task-list>
+<ac:task>
+<ac:task-id>18</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                    <p>On budget/ahead</p>
+                  </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>19</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                    <p>0-10% overspent</p>
+                  </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>20</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                    <p>10-30% overspent</p>
+                  </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>21</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                    <p>&gt; 30% overspent</p>
+                  </ac:task-body>
+</ac:task>
+</ac:task-list>
+              <p>When was the PCC updated?</p>
+              <p>
+                <span> </span>
+                <span> </span>
+                <time datetime=\"2017-01-01\"/>
+                <span> </span>
+                <span> </span>
+              </p>
+            </div>
+          </td>
+          <td class=\"highlight-blue\" data-highlight-colour=\"blue\">
+            <ac:task-list>
+<ac:task>
+<ac:task-id>22</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>In time</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>23</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>Delayed</p>
+                </ac:task-body>
+</ac:task>
+</ac:task-list>If delayed:<br/>
+            <p>
+              <ac:placeholder>Initial date</ac:placeholder>
+            </p>
+            <p>
+              <ac:placeholder>Expected date </ac:placeholder>
+            </p>
+          </td>
+          <td class=\"highlight-blue\" data-highlight-colour=\"blue\">
+            <p>
+              <span> </span>
+              <time datetime=\"2017-01-01\"/>
+              <span> </span>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class=\"highlight-yellow\" data-highlight-colour=\"yellow\" rowspan=\"2\">
+            <p>
+              <strong>TL</strong>
+            </p>
+          </td>
+          <td class=\"highlight-yellow\" colspan=\"1\" data-highlight-colour=\"yellow\" style=\"text-align: center;\">
+            <p>
+              <strong>Technical quality</strong>
+            </p>
+          </td>
+          <td class=\"highlight-yellow\" colspan=\"1\" data-highlight-colour=\"yellow\" style=\"text-align: center;\">
+            <p>
+              <strong>PRS</strong>
+            </p>
+          </td>
+          <td class=\"highlight-yellow\" colspan=\"1\" data-highlight-colour=\"yellow\" style=\"text-align: center;\">
+            <p>
+              <strong>Next internal milestone</strong>
+            </p>
+          </td>
+          <td class=\"highlight-yellow\" colspan=\"1\" data-highlight-colour=\"yellow\" style=\"text-align: center;\">
+            <p>
+              <strong>Are the dev. resources secured?</strong>
+            </p>
+          </td>
+          <td class=\"highlight-yellow\" colspan=\"1\" data-highlight-colour=\"yellow\">
+            <strong>Any pending change requests?</strong>
+          </td>
+          <td colspan=\"3\" style=\"text-align: center;\">
+            <p>
+              <strong>Updated by</strong>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class=\"highlight-yellow\" colspan=\"1\" data-highlight-colour=\"yellow\">
+            <ac:task-list>
+<ac:task>
+<ac:task-id>24</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>Great</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>25</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>Acceptable</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>26</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>Unacceptable</p>
+                </ac:task-body>
+</ac:task>
+</ac:task-list>
+          </td>
+          <td class=\"highlight-yellow\" colspan=\"1\" data-highlight-colour=\"yellow\">
+            <ac:task-list>
+<ac:task>
+<ac:task-id>27</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>Defined fully</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>28</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>Some uncertainty</p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>29</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>Much uncertainty</p>
+                </ac:task-body>
+</ac:task>
+</ac:task-list>
+          </td>
+          <td class=\"highlight-yellow\" colspan=\"1\" data-highlight-colour=\"yellow\">
+            <p>
+              <time datetime=\"2017-01-01\"/>
+            </p>
+            <p>
+              <ac:placeholder>Which milestone?</ac:placeholder>
+            </p>
+          </td>
+          <td class=\"highlight-yellow\" colspan=\"1\" data-highlight-colour=\"yellow\">
+            <ac:task-list>
+<ac:task>
+<ac:task-id>30</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>Yes</ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>31</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>No</ac:task-body>
+</ac:task>
+</ac:task-list>
+            <p>If no: <br/>
+              <span style=\"font-family: monospace;\">
+                <span style=\"white-space: pre;\">
+                  <ac:placeholder>Who? </ac:placeholder>
+                </span>
+              </span>
+            </p>
+            <p>
+              <span style=\"font-family: monospace;\">
+                <span style=\"white-space: pre;\">
+                  <ac:placeholder>For how long? </ac:placeholder>
+                </span>
+              </span>
+            </p>
+            <p>
+              <span style=\"font-family: monospace;\">
+                <span style=\"white-space: pre;\">
+                  <ac:placeholder>When?</ac:placeholder>
+                </span>
+              </span>
+            </p>
+          </td>
+          <td class=\"highlight-yellow\" colspan=\"1\" data-highlight-colour=\"yellow\">
+            <ac:task-list>
+<ac:task>
+<ac:task-id>32</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>Yes</ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>33</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>No</ac:task-body>
+</ac:task>
+</ac:task-list>
+          </td>
+          <td colspan=\"3\">
+            <ac:task-list>
+<ac:task>
+<ac:task-id>34</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>PM: <ac:placeholder>The first person to update the report writes initials here </ac:placeholder>
+                  </p>
+                </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>35</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                  <p>TL: <ac:placeholder>The first person to update the report writes initials here </ac:placeholder>
+                  </p>
+                </ac:task-body>
+</ac:task>
+</ac:task-list>
+          </td>
+        </tr>
+        <tr>
+          <td colspan=\"9\">
+            <p>
+              <strong>Main challenges by PM:</strong> <ac:placeholder>Write 1-3 hot issues that you are dealing with now. E.g. do you experience any blockers?</ac:placeholder>
+            </p>
+            <p>
+              <strong>Main challenges by TL:</strong> <ac:placeholder>Write 1-3 hot issues that you are dealing with now. E.g. do you experience any blockers?</ac:placeholder>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <br/>
+    </p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+<h2>Something to consider prior to the meeting</h2>
+<p>Do you have anything to send to another office?</p>
+<p>Do you have developers allocated whom you don't need at the moment?</p>
+<p>Do you need someone to purchase something for you?</p>
+<p>
+  <br/>
+</p>",
+"representation":"storage"}}}

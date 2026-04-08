@@ -1,0 +1,213 @@
+{"type":"page","title":"Evaluation of The Project","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <ac:structured-macro ac:macro-id=\"dc4904c1-ad89-4779-9478-a26c6e985e48\" ac:name=\"toc\" ac:schema-version=\"1\"/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h1>Customer Evaluation</h1>
+      <p>Section store information about Customer's Evaluation of project execution and launch.</p>
+      <h2>Customer Evaluation Form - 20030007</h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Date</th>
+            <th>Author</th>
+            <th>Source</th>
+            <th colspan=\"1\">Notes</th>
+          </tr>
+          <tr>
+            <td>20170119</td>
+            <td>HJC</td>
+            <td>
+              <div class=\"content-wrapper\">
+                <p>
+                  <a href=\"http://<CONFLUENCE_HOST>:81/pmo/20170119 - HJC - Customer evaluation template.ods\">20170119 - HJC - Customer evaluation template.ods</a>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <p>This template is to be filled out during a phone/skype conversation with the customer.</p>
+              <p>Remember to record the conversation if the customer agrees to this in the beginning.</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">20170119</td>
+            <td colspan=\"1\">HJC</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <a href=\"http://<CONFLUENCE_HOST>:81/pmo/20170119_Email-invitation for customer evaluation talk.odt\">20170119_Email-invitation for customer evaluation talk.odt</a>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">This is a template for the email invitation sent to the customer, where we ask them to take part in the evaluation of a project.</td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">20170119</td>
+            <td colspan=\"1\">HJC</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <a href=\"http://<CONFLUENCE_HOST>:81/pmo/20170119_Feedback questions about the cooperation with EKTOS.odt\">20170119_Feedback questions about the cooperation with EKTOS.odt</a>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">These are the same questions as in the spreadsheet template, but this odt document is attached to the email invitation to the customer for the evaluation talk. Text in English.</td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">20170119</td>
+            <td colspan=\"1\">HJC</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <a href=\"http://<CONFLUENCE_HOST>:81/pmo/20170119_Feedbacksporgsmaal om samarbejdet med EKTOS.odt\">20170119_Feedbacksporgsmaal om samarbejdet med EKTOS.odt</a>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <span>These are the same questions as in the spreadsheet template, but this odt document is attached to the email invitation to the customer for the evaluation talk. Text in Danish.</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h1>EKTOS Evaluation</h1>
+      <h2>Estimated vs spent resources</h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Date</th>
+            <th>Author</th>
+            <th>Source</th>
+            <th>notes</th>
+          </tr>
+          <tr>
+            <td>20170119</td>
+            <td>HJC</td>
+            <td>
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:link>
+                    <ri:attachment ri:filename=\"20170119_HJC_Project_Evaluation_Estimates _vs_Spent_Resources.ods\">
+                      <ri:page ri:content-title=\"Evaluation of The Project\" ri:space-key=\"3CVNC\"/>
+                    </ri:attachment>
+                  </ac:link>
+                </p>
+              </div>
+            </td>
+            <td>This template contains two sheets where it's possible to generate diagrams that visualize the difference between 1) the estimated man hours vs. the spent man hours, and 2) the estimated external costs vs. the spent costs.</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Schedule creep</h2>
+      <p>
+        <br/>
+      </p>
+      <h2>Internal Team Evaluation</h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Date</th>
+            <th>Author</th>
+            <th>Source</th>
+            <th>Notes</th>
+          </tr>
+          <tr>
+            <td>20170119</td>
+            <td>HJC</td>
+            <td>Template to be found in google docs</td>
+            <td>
+              <br/>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Top Management Evaluation</h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Date</th>
+            <th>Author</th>
+            <th>Source</th>
+            <th>Notes</th>
+          </tr>
+          <tr>
+            <td>20170119</td>
+            <td>HJC</td>
+            <td>
+              <div class=\"content-wrapper\">
+                <p>
+                  <a href=\"http://<CONFLUENCE_HOST>:81/pmo/20170119_HJC_Feedback from top management.odt\">20170119_HJC_Feedback from top management.odt</a>
+                </p>
+              </div>
+            </td>
+            <td>This template contains question for top management about he overall economy of the project and whether or not the project is considered successful in a business perspective. The questions should be send with a link to this evaluation page that contains key numbers regarding the project economy.</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Sales evaluation</h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Date</th>
+            <th>Author</th>
+            <th>Source</th>
+            <th>Notes</th>
+          </tr>
+          <tr>
+            <td>20170119</td>
+            <td>HJC</td>
+            <td>
+              <div class=\"content-wrapper\">
+                <p>
+                  <a href=\"http://<CONFLUENCE_HOST>:81/pmo/20170119_HJC_Feedback from the sales responsible.odt\">20170119_HJC_Feedback from the sales responsible.odt</a>
+                </p>
+              </div>
+            </td>
+            <td>This template contains questions about the sales process. <span>The questions should be send with a link to this evaluation page that contains key numbers regarding the project economy.</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

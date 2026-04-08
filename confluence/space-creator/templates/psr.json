@@ -1,0 +1,74 @@
+{"type":"page","title":"Project Status Reporting","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <ac:structured-macro ac:macro-id=\"5cbf7b84-d615-404a-9465-33a3a2d967e7\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"templateName\">2392181</ac:parameter>
+          <ac:parameter ac:name=\"templateId\">2392181</ac:parameter>
+          <ac:parameter ac:name=\"title\">@currentDate-@spaceName</ac:parameter>
+          <ac:parameter ac:name=\"buttonLabel\">Create Fixed Price Report</ac:parameter>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"6c536d02-ec28-48fa-878e-d3307bc84f22\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"templateName\">4653058</ac:parameter>
+          <ac:parameter ac:name=\"templateId\">4653058</ac:parameter>
+          <ac:parameter ac:name=\"title\">@currentDate-@spaceName</ac:parameter>
+          <ac:parameter ac:name=\"buttonLabel\">Create Time &amp; Material Report</ac:parameter>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>Page contains a history of project status reporting during project execution:</p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Document</th>
+            <th>Links</th>
+            <th>
+              <div class=\"content-wrapper\">
+                <a href=\"http://<TWIKI_HOST>/bin/view/Main/PowerCellDCDC?crypttoken=02df9d644d9d995f3ffa13b6e52d94dd;sortcol=2;table=2;up=0#sorted_table\" rel=\"nofollow\" title=\"Sort by this column\">
+                  <ac:image ac:alt=\"Person\" ac:height=\"16\" ac:width=\"16\">
+                    <ri:url ri:value=\"http://<TWIKI_HOST>/pub/TWiki/TWikiDocGraphics/person.gif\"/>
+                  </ac:image>
+                </a>
+              </div>
+            </th>
+            <th>Date</th>
+          </tr>
+          <tr>
+            <td>
+              <ac:placeholder>&lt;Document Name&gt; </ac:placeholder>
+            </td>
+            <td>
+              <a href=\"http://<CONFLUENCE_HOST>/\">&lt;Change Link Here&gt;</a>
+            </td>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;YYYYMMDD&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

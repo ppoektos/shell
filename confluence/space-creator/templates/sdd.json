@@ -1,0 +1,1367 @@
+{"type":"page","title":"Software Design Documents","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>The sections contains all documents related to the Software Development and Design Implementation.</p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"two_left_sidebar\">
+    <ac:layout-cell>
+      <p>
+        <strong>Quick Links:</strong>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"831560de-ae32-4db2-9ba6-3e3ac4d5a162\" ac:name=\"toc\" ac:schema-version=\"1\"/>
+        <strong>
+          <br/>
+        </strong>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <h2>SWDE Implementation Team:</h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>
+              <p>Role</p>
+            </th>
+            <th>
+              <p>Initials</p>
+            </th>
+            <th colspan=\"1\">
+              <p>Responsible</p>
+            </th>
+          </tr>
+          <tr>
+            <th colspan=\"1\">TL</th>
+            <td colspan=\"1\">
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt; </ac:placeholder>
+            </td>
+            <td colspan=\"1\">
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>PM</p>
+            </th>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt;</ac:placeholder>
+              <span> </span>
+            </td>
+            <td colspan=\"1\">
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p>SWDE</p>
+            </th>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt; </ac:placeholder> </td>
+            <td colspan=\"1\">
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+          </tr>
+          <tr>
+            <th colspan=\"1\">
+              <p>SWDE</p>
+            </th>
+            <td colspan=\"1\">
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt;</ac:placeholder>
+            </td>
+            <td colspan=\"1\">
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <hr/>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"two_right_sidebar\">
+    <ac:layout-cell>
+      <h2>
+        <span style=\"color: rgb(0,0,0);\">SW Design Documentation</span>
+        <span style=\"color: rgb(0,0,0);\"> </span>
+      </h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Document Name</th>
+            <th colspan=\"1\">Link</th>
+            <th>Date</th>
+            <th colspan=\"1\">Note</th>
+          </tr>
+          <tr>
+            <td colspan=\"1\"> <ac:placeholder>&lt;Document Name&gt; </ac:placeholder>
+            </td>
+            <td colspan=\"1\"> <a href=\"http://<CONFLUENCE_HOST>/\">Change this Link</a>
+            </td>
+            <td colspan=\"1\"> <ac:placeholder>&lt;YYYYMMDD&gt; </ac:placeholder>
+            </td>
+            <td colspan=\"1\"> <ac:placeholder>&lt;Note&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <span style=\"color: rgb(0,0,0);\">
+          <br/>
+        </span>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <ac:structured-macro ac:macro-id=\"50a0050b-b356-486a-bf40-1f32bee84386\" ac:name=\"info\" ac:schema-version=\"1\">
+        <ac:parameter ac:name=\"title\">SDD Template</ac:parameter>
+        <ac:rich-text-body>
+          <p>To create SDD please use this template: <ac:structured-macro ac:macro-id=\"663d9883-3ac5-474c-a1ee-4371c17d5b0e\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+              <ac:parameter ac:name=\"templateName\">2392196</ac:parameter>
+              <ac:parameter ac:name=\"templateId\">2392196</ac:parameter>
+              <ac:parameter ac:name=\"buttonLabel\">SDD Template</ac:parameter>
+            </ac:structured-macro>
+          </p>
+          <p>
+            <strong>Link to new document should be added to the left table manually.</strong>
+          </p>
+          <div>
+            <strong>
+              <br/>
+            </strong>
+          </div>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h3>
+        <strong>SDD Checklist:</strong>
+      </h3>
+      <p>This section is used to complete checklist.</p>
+      <p>Please take box below and insert in Status field of table depend on real status.</p>
+      <p>
+        <strong>Status</strong>:</p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"1fee17f5-4ed8-4198-a0a6-442401207804\" ac:name=\"status\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"colour\">Green</ac:parameter>
+          <ac:parameter ac:name=\"title\">Completed</ac:parameter>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"efadc56a-d22d-4350-b280-645488b203ab\" ac:name=\"status\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"colour\">Yellow</ac:parameter>
+          <ac:parameter ac:name=\"title\">not full</ac:parameter>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"18a05019-966a-4c98-92a0-ee7612c91339\" ac:name=\"status\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"colour\">Red</ac:parameter>
+          <ac:parameter ac:name=\"title\">not completed</ac:parameter>
+          <ac:parameter ac:name=\"\"/>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"35c94038-c7a6-4ac0-b89b-3a783eb5aa53\" ac:name=\"status\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+          <ac:parameter ac:name=\"title\">na</ac:parameter>
+          <ac:parameter ac:name=\"\"/>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <strong>In scope/Out of scope:</strong>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"86321276-f08c-46c8-a970-980b836d50aa\" ac:name=\"status\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"colour\">Green</ac:parameter>
+          <ac:parameter ac:name=\"title\">+</ac:parameter>
+          <ac:parameter ac:name=\"\"/>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"e75b78f1-d6a1-4498-93a6-c0b2f3f84ac6\" ac:name=\"status\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"colour\">Red</ac:parameter>
+          <ac:parameter ac:name=\"title\"> -</ac:parameter>
+          <ac:parameter ac:name=\"\"/>
+        </ac:structured-macro>
+      </p>
+      <p>
+        <br/>
+      </p>
+      <table class=\"relative-table wrapped\" style=\"width: 53.9683%;\">
+        <colgroup>
+          <col style=\"width: 19.2146%;\"/>
+          <col style=\"width: 15.2875%;\"/>
+          <col style=\"width: 11.2202%;\"/>
+          <col style=\"width: 12.0617%;\"/>
+          <col style=\"width: 15.2875%;\"/>
+          <col style=\"width: 8.97616%;\"/>
+          <col style=\"width: 8.97616%;\"/>
+          <col style=\"width: 8.97616%;\"/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Chapter in SDD</th>
+            <th>In Scope/Out of Scope</th>
+            <th colspan=\"1\">Decision made by/date</th>
+            <th colspan=\"1\">Comment about decision</th>
+            <th colspan=\"1\">
+              <p>Status at<br/>Gate A</p>
+            </th>
+            <th colspan=\"1\">Status at<br/>Gate DV1</th>
+            <th colspan=\"1\">Status at<br/>Gate DV2</th>
+            <th colspan=\"1\">Status at<br/>Gate PV1</th>
+          </tr>
+          <tr>
+            <td colspan=\"1\">
+              <p>4. Introduction</p>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"58b80860-211d-4d81-abb3-0d628c68f491\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\">na</ac:parameter>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"8cc1b5f6-70c4-4874-a079-ef7dda515086\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\">na</ac:parameter>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">4.1. Business Goal of the Project</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"0e0196a4-0ba6-4023-ab84-5804e7a38494\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\">na</ac:parameter>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <br/>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"da9715f2-58b9-434e-a5d9-416e4e08e10b\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\">na</ac:parameter>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">4.2. Software Scope and Limitations</td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"05598bf9-5831-4fa0-9c88-45457c3889ca\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\">na</ac:parameter>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <div class=\"content-wrapper\">
+                <p>
+                  <ac:structured-macro ac:macro-id=\"184141a1-9519-473c-a9b2-d64cde08a9aa\" ac:name=\"status\" ac:schema-version=\"1\">
+                    <ac:parameter ac:name=\"colour\">Grey</ac:parameter>
+                    <ac:parameter ac:name=\"title\">na</ac:parameter>
+                    <ac:parameter ac:name=\"\"/>
+                  </ac:structured-macro>
+                </p>
+              </div>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">5. System Overview</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">5.1. Short Description of the System</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">5.2. Description of the Target Board</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">6. Application Standards Overview</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7. Software Architecture  </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.1. Software Implementation Strategy</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.2. Software Structure</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.3. Components Detail Description</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">
+              <p class=\"western\">
+                <span class=\"nh-number\">7.3.1.</span>
+                <ac:placeholder>&lt;Component Name&gt;</ac:placeholder>
+              </p>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.3.1.1. Component Structure</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.3.1.2. Component Design Restrictions</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.3.1.3. Component Behavior</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.3.1.4. Component Structure</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.3.1.5. Component Design Restrictions</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.3.1.6. Component Behavior</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">7.4. Execution Process Description</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">8. Database Description</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">9. Interfaces and Protocols Description</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">10. Data Loggers Description</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">11. Safety Requirements and Approach</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">12. Attitude and Approaches Toward EMC's and Others TRS Testing</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">13. Memory Calculation</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">13.1. Internal MCU Memory Calculation</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">13.2. External Memory Calculation</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">14. Environment Description</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">14.1. Development Tools</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">14.2. Evaluation Boards</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">14.3. Used Equipment</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">15. Appendices</td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <hr/>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"two_right_sidebar\">
+    <ac:layout-cell>
+      <h2>Code Review Reports</h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Document Name</th>
+            <th colspan=\"1\">Link</th>
+            <th>Date</th>
+            <th colspan=\"1\">Note</th>
+          </tr>
+          <tr>
+            <td colspan=\"1\"> <ac:placeholder>&lt;Document Name&gt; </ac:placeholder>
+            </td>
+            <td colspan=\"1\"> <a href=\"http://<CONFLUENCE_HOST>/\">Change this Link</a>
+            </td>
+            <td colspan=\"1\"> <ac:placeholder>&lt;YYYYMMDD&gt; </ac:placeholder>
+            </td>
+            <td colspan=\"1\"> <ac:placeholder>&lt;Note&gt;</ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <ac:structured-macro ac:macro-id=\"e4db4d1b-03f9-4b44-89b6-34cf3b7fe3f0\" ac:name=\"info\" ac:schema-version=\"1\">
+        <ac:parameter ac:name=\"title\">Code Review Report Template</ac:parameter>
+        <ac:rich-text-body>
+          <p>To create Code Review Report please use this template: <ac:structured-macro ac:macro-id=\"d67bcfa4-4717-4eb4-8e6b-d80b4eea8c14\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+              <ac:parameter ac:name=\"templateName\">2392226</ac:parameter>
+              <ac:parameter ac:name=\"templateId\">2392226</ac:parameter>
+              <ac:parameter ac:name=\"buttonLabel\">Code Review Report Template</ac:parameter>
+            </ac:structured-macro>
+          </p>
+          <p>
+            <strong>Link to new document should be added to the left table manually.</strong>
+          </p>
+          <div>
+            <strong>
+              <br/>
+            </strong>
+          </div>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <hr/>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"two_right_sidebar\">
+    <ac:layout-cell>
+      <h2>SW Test Reports</h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Document Name</th>
+            <th colspan=\"1\">Link</th>
+            <th>Date</th>
+            <th colspan=\"1\">Note</th>
+          </tr>
+          <tr>
+            <td colspan=\"1\"> <ac:placeholder>&lt;Document Name&gt; </ac:placeholder>
+            </td>
+            <td colspan=\"1\"> <a href=\"http://<CONFLUENCE_HOST>/\">Change this Link</a>
+            </td>
+            <td colspan=\"1\"> <ac:placeholder>&lt;YYYYMMDD&gt; </ac:placeholder>
+            </td>
+            <td colspan=\"1\"> <ac:placeholder>&lt;Note&gt;</ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <ac:structured-macro ac:macro-id=\"b7da219c-2694-4462-9f35-6b3b9494bc98\" ac:name=\"info\" ac:schema-version=\"1\">
+        <ac:parameter ac:name=\"title\">SW Test Report Template</ac:parameter>
+        <ac:rich-text-body>
+          <p>To create Test Report please use this template: <ac:structured-macro ac:macro-id=\"7628a894-8ed9-4160-8cb5-35a58fd3f56a\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+              <ac:parameter ac:name=\"templateName\">2392230</ac:parameter>
+              <ac:parameter ac:name=\"templateId\">2392230</ac:parameter>
+              <ac:parameter ac:name=\"buttonLabel\">SW Test  Report Template</ac:parameter>
+            </ac:structured-macro>
+          </p>
+          <p>
+            <strong>Link to new document should be added to the left table manually.</strong>
+          </p>
+          <div>
+            <strong>
+              <br/>
+            </strong>
+          </div>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <hr/>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"two_right_sidebar\">
+    <ac:layout-cell>
+      <h2>Other Documentation</h2>
+      <table class=\"wrapped\">
+        <tbody>
+          <tr>
+            <th>Document Name</th>
+            <th colspan=\"1\">Link</th>
+            <th>Date</th>
+            <th colspan=\"1\">Note</th>
+          </tr>
+          <tr>
+            <td colspan=\"1\"> <ac:placeholder>&lt;Document Name&gt; </ac:placeholder>
+            </td>
+            <td colspan=\"1\"> <a href=\"http://<CONFLUENCE_HOST>/\">Change this Link</a>
+            </td>
+            <td colspan=\"1\"> <ac:placeholder>&lt;YYYYMMDD&gt; </ac:placeholder>
+            </td>
+            <td colspan=\"1\"> <ac:placeholder>&lt;Note&gt;</ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <ac:structured-macro ac:macro-id=\"13d82923-a177-4dfe-ab4f-9f76be5b8b0f\" ac:name=\"info\" ac:schema-version=\"1\">
+        <ac:parameter ac:name=\"title\">Standard Document Template</ac:parameter>
+        <ac:rich-text-body>
+          <p>To create Test Report please use this template: <ac:structured-macro ac:macro-id=\"4fc5f960-b564-4388-9d5f-acae322a995d\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+              <ac:parameter ac:name=\"templateName\">2392191</ac:parameter>
+              <ac:parameter ac:name=\"templateId\">2392191</ac:parameter>
+              <ac:parameter ac:name=\"buttonLabel\">Standard Document Template</ac:parameter>
+            </ac:structured-macro>
+          </p>
+          <p>
+            <strong>Link to new document should be added to the left table manually.</strong>
+          </p>
+          <div>
+            <strong>
+              <br/>
+            </strong>
+          </div>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"two_right_sidebar\">
+    <ac:layout-cell>
+      <hr/>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"two_right_sidebar\">
+    <ac:layout-cell>
+      <h2>Release Notes</h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>SW Version</th>
+            <th>Date</th>
+            <th colspan=\"1\">Responsible</th>
+            <th colspan=\"1\">Link to Release Notes Document</th>
+            <th colspan=\"1\">Release Package</th>
+            <th colspan=\"1\">Short Description</th>
+          </tr>
+          <tr>
+            <td colspan=\"1\">
+              <ac:placeholder>&lt;Version&gt; </ac:placeholder>
+            </td>
+            <td colspan=\"1\">
+              <span style=\"color: rgb(112,112,112);\">&lt;YYYYMMDD&gt;</span>
+            </td>
+            <td colspan=\"1\">
+              <ac:placeholder ac:type=\"mention\">&lt;INI&gt; </ac:placeholder>
+            </td>
+            <td colspan=\"1\">
+              <a href=\"http://<CONFLUENCE_HOST>/\">Change this Link</a>
+            </td>
+            <td colspan=\"1\">
+              <a href=\"http://<CONFLUENCE_HOST>/\">Change this Link</a>
+            </td>
+            <td colspan=\"1\">
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <ac:structured-macro ac:macro-id=\"d3581d99-d94b-487f-999f-04bbcbf74a34\" ac:name=\"info\" ac:schema-version=\"1\">
+        <ac:parameter ac:name=\"title\">Release Notes Template</ac:parameter>
+        <ac:rich-text-body>
+          <p>To create Release Notes document please use this template: <ac:structured-macro ac:macro-id=\"ee4de22e-0af0-46d8-8c8e-477a3a8d58b6\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+              <ac:parameter ac:name=\"templateName\">2392163</ac:parameter>
+              <ac:parameter ac:name=\"templateId\">2392163</ac:parameter>
+              <ac:parameter ac:name=\"buttonLabel\">Release Note Template</ac:parameter>
+            </ac:structured-macro>
+          </p>
+          <p>
+            <strong>Link to new document should be added to the left table manually.</strong>
+          </p>
+          <div>
+            <strong>
+              <br/>
+            </strong>
+          </div>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h2>SDD baseline versions by gates</h2>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Version</th>
+            <th>Link to SDD as pdf</th>
+            <th>Uploaded by</th>
+            <th>Uploaded when</th>
+          </tr>
+          <tr>
+            <td>
+              <ac:placeholder>E.g. Baseline version Gate A </ac:placeholder>
+            </td>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

@@ -1,0 +1,52 @@
+{"type":"page","title":"Customer & 3rd Party Contact Data","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>Exported by PM from WEB CRM</p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <p align=\"CENTER\" class=\"western\">
+                <strong>Name</strong>
+              </p>
+            </td>
+            <td>
+              <p align=\"CENTER\" class=\"western\">
+                <strong>Position</strong>
+              </p>
+            </td>
+            <td>
+              <p align=\"CENTER\" class=\"western\">
+                <strong>Contact Information</strong>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class=\"western\">
+                <ac:placeholder>&lt;Full Name&gt; </ac:placeholder>
+              </p>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Position&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Any contact information&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

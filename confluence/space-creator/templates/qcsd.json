@@ -1,0 +1,67 @@
+{"type":"page","title":"Quality Control Specific Design","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>The section defines Quality Control scope, approach and Control execution.</p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <thead>
+          <tr>
+            <th>
+              <div class=\"tablesorter-header-inner\">Name</div>
+            </th>
+            <th>
+              <div class=\"tablesorter-header-inner\">Revision</div>
+            </th>
+            <th>
+              <div class=\"tablesorter-header-inner\">Date</div>
+            </th>
+            <th>
+              <div class=\"tablesorter-header-inner\">Document</div>
+            </th>
+            <th>
+              <div class=\"tablesorter-header-inner\">Description</div>
+            </th>
+            <th>
+              <div class=\"tablesorter-header-inner\">Responsible</div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ac:placeholder>&lt;Name&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Number&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;YYYYMMDD&gt; </ac:placeholder>
+            </td>
+            <td>
+              <a href=\"http://<CONFLUENCE_HOST>/\">&lt;Change this Link&gt;</a>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

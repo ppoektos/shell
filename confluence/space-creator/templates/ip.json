@@ -1,0 +1,22 @@
+{"type":"page","title":"Implementation Proposal","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>Implementation proposal described here.</p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h2>Create Implementation Proposal from Template</h2>
+      <p>
+        <ac:structured-macro ac:macro-id=\"8f7ef7e7-0c06-478b-8fe0-acee117ef06c\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"templateName\">3047434</ac:parameter>
+          <ac:parameter ac:name=\"templateId\">3047434</ac:parameter>
+          <ac:parameter ac:name=\"title\">@spaceName</ac:parameter>
+          <ac:parameter ac:name=\"buttonLabel\">Create Implementation Proposal from template</ac:parameter>
+        </ac:structured-macro>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

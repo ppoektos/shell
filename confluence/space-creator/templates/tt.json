@@ -1,0 +1,73 @@
+{"type":"page","title":"Type Testing, EMC, HALT Reports And Inputs","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>Quick Links:</p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"46fd0a9c-febb-489f-8687-eece3c3015af\" ac:name=\"toc\" ac:schema-version=\"1\"/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>The table provides information about passed Test Reliabilities Tests and their statuses.</p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <table class=\"wrapped\">
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <th>Revision</th>
+            <th>Date</th>
+            <th>Document</th>
+            <th>Description</th>
+            <th>Responsible</th>
+          </tr>
+          <tr>
+            <td>
+              <ac:placeholder>&lt;Name&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Revision Number&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;YYYYMMDD&gt; </ac:placeholder>
+            </td>
+            <td>
+              <a href=\"http://<CONFLUENCE_HOST>\">&lt;Change Link Here&gt;</a>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Responsible&gt; </ac:placeholder>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+            <td colspan=\"1\">
+              <br/>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

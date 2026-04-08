@@ -1,0 +1,17 @@
+{"id":"<PAGE_ID>",
+"type":"page",
+"title":"Home",
+"space":{"key":"<SPACE_KEY>"},
+"body":
+{"storage":
+{"value":
+"<p>This page shows the main structure of the registration number system.<br/>
+The system is based on a three-level structure containing two group levels, a serial number, and a revision letter:</p>
+<p>To update this page you need to either remove/add released file or directory on the NAS share.</p>
+<p><strong>AABBNNNNR</strong></p>
+<p>AA: Main group number<br/>
+BB: Sub group number<br/>
+NNNN: Serial number<br/>
+R: Revision letter</p>
+<p><a href="http://<REDMINE_HOST>/projects/non-conformance-registration/issues">Non-conformance registration</a>: any mistakes, inconvenience or improvements of existing documents.</p>
+<p>Observation registration: absent of any type procedures, templates, guides, etc. After creation observation should be sent to <a href="mailto:<QA_EMAIL>"><QA_EMAIL></a>.</p>

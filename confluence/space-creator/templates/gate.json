@@ -1,0 +1,50 @@
+{"type":"page","title":"Gates","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<p>
+  <ac:structured-macro ac:macro-id=\"c4106b36-1f95-4c67-987d-99079771172b\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+    <ac:parameter ac:name=\"templateName\">57147393</ac:parameter>
+    <ac:parameter ac:name=\"templateId\">57147393</ac:parameter>
+    <ac:parameter ac:name=\"title\">Gate S</ac:parameter>
+    <ac:parameter ac:name=\"buttonLabel\">Create Gate S</ac:parameter>
+  </ac:structured-macro>
+</p>
+<p>
+  <ac:structured-macro ac:macro-id=\"796716cf-e0fd-43ef-b2a4-8f3f916db29a\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+    <ac:parameter ac:name=\"templateName\">57147395</ac:parameter>
+    <ac:parameter ac:name=\"templateId\">57147395</ac:parameter>
+    <ac:parameter ac:name=\"title\">Gate 0</ac:parameter>
+    <ac:parameter ac:name=\"buttonLabel\">Create Gate 0</ac:parameter>
+  </ac:structured-macro>
+</p>
+<p>
+  <ac:structured-macro ac:macro-id=\"0ff94eef-17b9-47b0-b9af-882f2c5f76ae\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+    <ac:parameter ac:name=\"templateName\">17989715</ac:parameter>
+    <ac:parameter ac:name=\"templateId\">17989715</ac:parameter>
+    <ac:parameter ac:name=\"title\">Gate DVx</ac:parameter>
+    <ac:parameter ac:name=\"buttonLabel\">Create DVx</ac:parameter>
+  </ac:structured-macro>
+</p>
+<p>
+  <ac:structured-macro ac:macro-id=\"6a1a693b-31e8-488c-995c-1fe173143e62\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+    <ac:parameter ac:name=\"templateName\">27131910</ac:parameter>
+    <ac:parameter ac:name=\"templateId\">27131910</ac:parameter>
+    <ac:parameter ac:name=\"title\">Gate PVx</ac:parameter>
+    <ac:parameter ac:name=\"buttonLabel\">Create PVx</ac:parameter>
+  </ac:structured-macro>
+</p>
+<p>
+  <ac:structured-macro ac:macro-id=\"1eb4e1c8-1d5f-4965-aa01-00252890fbe2\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+    <ac:parameter ac:name=\"templateName\">59834374</ac:parameter>
+    <ac:parameter ac:name=\"templateId\">59834374</ac:parameter>
+    <ac:parameter ac:name=\"title\">Gate H</ac:parameter>
+    <ac:parameter ac:name=\"buttonLabel\">Create Gate H</ac:parameter>
+  </ac:structured-macro>
+</p>
+<p>
+  <ac:structured-macro ac:macro-id=\"6dbaeebb-c15b-48de-864c-a379a7f602c9\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+    <ac:parameter ac:name=\"templateName\">59834376</ac:parameter>
+    <ac:parameter ac:name=\"templateId\">59834376</ac:parameter>
+    <ac:parameter ac:name=\"title\">Gate E</ac:parameter>
+    <ac:parameter ac:name=\"buttonLabel\">Create Gate E</ac:parameter>
+  </ac:structured-macro>
+</p>",
+"representation":"storage"}}}

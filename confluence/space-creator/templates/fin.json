@@ -1,0 +1,86 @@
+{"type":"page","title":"Financial","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <strong style=\"line-height: 1.4285715;\">Quick Links:</strong>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"1b03d7bc-9e73-461c-b935-64ec28614719\" ac:name=\"toc\" ac:schema-version=\"1\"/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"two_equal\">
+    <ac:layout-cell>
+      <h1>Project Cost Calculation</h1>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Date</th>
+            <th>Author</th>
+            <th>Source</th>
+          </tr>
+          <tr>
+            <td>
+              <ac:placeholder>&lt;YYYYMMDD&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt; </ac:placeholder>
+            </td>
+            <td>
+              <br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <h1>Misc Project Expenses Registration</h1>
+      <table class=\"wrapped\">
+        <tbody>
+          <tr>
+            <th>Date</th>
+            <th>Source</th>
+            <th>Notes</th>
+          </tr>
+          <tr>
+            <td> <ac:placeholder>&lt;YYYYDDMM&gt; </ac:placeholder>
+            </td>
+            <td> <a href=\"http://<CONFLUENCE_HOST>/\">http://<CONFLUENCE_HOST>/</a>
+            </td>
+            <td> <ac:placeholder>&lt;Notes&gt; </ac:placeholder>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+            <td>
+              <br/>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

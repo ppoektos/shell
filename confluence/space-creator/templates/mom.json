@@ -1,0 +1,57 @@
+{"type":"page","title":"MoMs","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <ac:structured-macro ac:macro-id=\"ee9cbd58-5291-49f7-b6e9-24e96fe9e08e\" ac:name=\"create-from-template\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"blueprintModuleCompleteKey\">com.atlassian.confluence.plugins.confluence-business-blueprints:meeting-notes-blueprint</ac:parameter>
+          <ac:parameter ac:name=\"contentBlueprintId\">7ae1ec99-ca30-43fe-85de-fae078cea20a</ac:parameter>
+          <ac:parameter ac:name=\"templateName\">7ae1ec99-ca30-43fe-85de-fae078cea20a</ac:parameter>
+          <ac:parameter ac:name=\"createButtonLabel\">Create meeting note</ac:parameter>
+          <ac:parameter ac:name=\"buttonLabel\">Create meeting note</ac:parameter>
+        </ac:structured-macro>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h2>Incomplete tasks from meetings</h2>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <ac:placeholder>&lt;Change Space location in macro below&gt; </ac:placeholder>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"20c59c0d-2d95-42a8-b1ab-aa30227d9dfd\" ac:name=\"tasks-report-macro\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"pageSize\">10</ac:parameter>
+        </ac:structured-macro>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h2>All meeting notes</h2>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>
+        <ac:placeholder>&lt;Change Space Key at content Report in macro below&gt; </ac:placeholder>
+      </p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"33084972-2f4f-41c2-81f6-9548d664399b\" ac:name=\"content-report-table\" ac:schema-version=\"1\">
+          <ac:parameter ac:name=\"blueprintModuleCompleteKey\">com.atlassian.confluence.plugins.confluence-business-blueprints:meeting-notes-blueprint</ac:parameter>
+          <ac:parameter ac:name=\"contentBlueprintId\">7ae1ec99-ca30-43fe-85de-fae078cea20a</ac:parameter>
+          <ac:parameter ac:name=\"analyticsKey\">meeting-notes</ac:parameter>
+          <ac:parameter ac:name=\"blankDescription\">Plan your meetings and share notes and actions with your team.</ac:parameter>
+          <ac:parameter ac:name=\"blankTitle\">Meeting notes</ac:parameter>
+          <ac:parameter ac:name=\"createButtonLabel\">Create meeting note</ac:parameter>
+          <ac:parameter ac:name=\"labels\">meeting-notes</ac:parameter>
+        </ac:structured-macro>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

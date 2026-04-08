@@ -1,0 +1,95 @@
+{"type":"page","title":"Technologies Overview","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>The Table provides quick information about new experience and used technologies during project execution.</p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p class=\"auto-cursor-target\">
+        <br/>
+      </p>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>
+              <strong>New Experience</strong>
+            </th>
+            <th>
+              <strong>Area</strong>
+            </th>
+            <th>
+              <strong>Author</strong>
+            </th>
+            <th>
+              <strong>Comments &amp; Conclusions</strong>
+            </th>
+          </tr>
+          <tr>
+            <td style=\"text-align: left;\">
+              <ac:placeholder>&lt;Description&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Area&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;Author initials&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Comments&gt; </ac:placeholder>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=\"1\"> </td>
+            <td colspan=\"1\"> </td>
+            <td colspan=\"1\"> </td>
+            <td colspan=\"1\"> </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class=\"auto-cursor-target\">
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p class=\"auto-cursor-target\">
+        <br/>
+      </p>
+      <table class=\"wrapped\">
+        <tbody>
+          <tr>
+            <th>Technical Leadership</th>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt; </ac:placeholder>
+            </td>
+          </tr>
+          <tr>
+            <th>Software Department Manager</th>
+            <td>
+              <ac:placeholder ac:type=\"mention\">&lt;Initials&gt; </ac:placeholder>
+            </td>
+          </tr>
+          <tr>
+            <th>Hardware Department Manager</th>
+            <td>
+              <ac:placeholder>&lt;Initials&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class=\"auto-cursor-target\">
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}

@@ -1,0 +1,77 @@
+{"type":"page","title":"Tools and Equipment","ancestors":[{"id":<PAGE_ID>}],"space":{"key":"<SPACE_KEY>"},"body":{"storage":{"value":
+"<ac:layout>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <p>The section provides lists and a short description of used tools and equipment for PowerCell DC/DC implementation.</p>
+      <p>
+        <ac:structured-macro ac:macro-id=\"fde49fd0-a1dd-4184-ad9a-3626333be983\" ac:name=\"toc\" ac:schema-version=\"1\"/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h1>Software Part</h1>
+      <p>The section contains the definition of used tools and equipments during Software Implementation </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <table class=\"wrapped\">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Tool's Name</th>
+            <th>User</th>
+            <th>Notes</th>
+          </tr>
+          <tr>
+            <td>
+              <ac:placeholder>&lt;Tool Name&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Initials&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Notes&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <h1>Hardware Part</h1>
+      <p>The section contains the definition of used tools and equipments during Hardware Implementation </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type=\"single\">
+    <ac:layout-cell>
+      <table class=\"wrapped\">
+        <tbody>
+          <tr>
+            <th>Tool's Name</th>
+            <th>User</th>
+            <th>Notes</th>
+          </tr>
+          <tr>
+            <td>
+              <ac:placeholder>&lt;Tool Name&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Initials&gt; </ac:placeholder>
+            </td>
+            <td>
+              <ac:placeholder>&lt;Notes&gt; </ac:placeholder>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>",
+"representation":"storage"}}}
