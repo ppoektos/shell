@@ -1,0 +1,13 @@
+%META:TOPICINFO{author="BaseUserMapping_666" date="1510651289" format="1.1" reprev="1.21" version="1.21"}%
+
+
+%EDITTABLE{format="| date, 15, 2017-11-01, %Y-%m-%d | select, 1, office1, office2 | select, 1, Administrative, Project, Office, Travel, Lab, Trial_salary, Deposit |  text, 30 |  text, 3 |  text, 10  | select, 1, No, Yes | text , 10 |" }%
+| *Date* | *Office* | *Type* | *Description* | *In charge* | *Amount* | *Project specified?* | *Project number* |
+
+
+
+
+<!---
+   * Set ALLOWTOPICCHANGE =
+   * Set READONLYSKINMODE = 1
+--->
