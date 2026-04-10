@@ -18,6 +18,8 @@ Scripts for automating Confluence project space management, weekly reporting, HR
 | `charts/chart_dev_pe.sh` | Dev-focused PE chart with month-over-month diff highlighting |
 | `qa-index/qa.sh` | Generates QA document index from NAS filesystem, pushes to Confluence |
 | `qa-index/qa1` | Static JSON header for the QA index page |
+| `qa-index/start_qamonitor.sh` | One-time setup — registers all NAS directories as incron watches on the QNAP |
+| `qa-index/update_qamonitor.sh` | incron entry point on the QNAP — handles inotify events, self-updates watch list, triggers `qa.sh` on released file changes |
 | `license-restart/resorcad.sh` | SSHes to a license server and safely restarts lmgrd |
 | `license-restart/orcad.php` | Web UI to trigger resorcad.sh for two license servers |
 | `space-creator/spcreate.php` | Web form to trigger spacecreate.sh from a browser |
@@ -65,7 +67,16 @@ All four chart scripts:
 
 ### QA index
 
-`qa.sh` mounts a NAS share, walks directories matching an 8-char code pattern (`MMSSSSSS`), finds `*_released*` files, copies them to an nginx web root, and builds an HTML table. The result is prepended with the static `qa1` header and PUT to Confluence.
+The QA index system spans two machines. On the QNAP NAS, `start_qamonitor.sh` is run once to seed `/etc/config/incron.d/qamonit.conf` with an inotify watch per directory under `/share/qa_admin/`. After that, `update_qamonitor.sh` is the incron entry point — it receives three arguments from incron (`$@` = path, `$#` = filename, `$%` = event mask) and handles four cases:
+
+- **New directory** — appends a new watch entry and restarts the incron daemon, so the monitor is self-extending as the document tree grows.
+- **Deleted directory** — removes the matching line from the config via `sed -i` and restarts incron.
+- **File written or deleted matching `*_released*`** — SSHes to the Confluence server and fires `qa.sh`.
+- **Anything else** — exits silently.
+
+`qa.sh` (running on the Confluence server) mounts the NAS share, walks directories matching an 8-char code pattern (`MMSSSSSS`), finds `*_released*` files, copies them to an nginx web root, and builds an HTML table. The result is prepended with the static `qa1` header and PUT to Confluence.
+
+The full pipeline: NAS filesystem change → incron on QNAP → `update_qamonitor.sh` → SSH → `qa.sh` → Confluence page update.
 
 ### License restart
 
@@ -96,5 +107,7 @@ All four chart scripts:
 **Split heredoc around a variable loop.** Chart scripts can't put a shell loop inside a heredoc, so they split the JSON payload across two temp files: `chart1` (the heredoc opening) and `chart2` (the closing), with the loop writing rows to neither — then `cat chart1 chart2` merges them. A simple workaround for heredoc's inability to contain dynamic content mid-stream.
 
 **`iprfix.sh` rewrites its own server URL.** The search result URLs returned by Confluence contain the public hostname. Since `iprfix.sh` runs on the same machine as Confluence, it pipes those URLs through `sed` to replace the public hostname with `localhost:8090` before making further requests — avoiding a round-trip through DNS and the load balancer for internal calls.
+
+**Self-extending incron watch list.** `update_qamonitor.sh` handles `IN_CREATE,IN_ISDIR` by appending the new directory to the incron config and restarting the daemon — so the watch list grows automatically as new project folders are created on the NAS. No manual re-registration needed; the monitor bootstraps itself forward. The inverse (`IN_DELETE,IN_ISDIR`) prunes the entry via `sed -i` to keep the config clean.
 
 **`shell_exec` as a web-to-shell bridge.** Both `orcad.php` and `spcreate.php` use PHP's `shell_exec('sudo ...')` to delegate directly to shell scripts. The web server runs as a low-privilege user; `sudo` grants it targeted escalation for exactly one command. The full SSH or script output is returned as a string and rendered in `<pre>` tags — the browser becomes a terminal for a long-running operation.
